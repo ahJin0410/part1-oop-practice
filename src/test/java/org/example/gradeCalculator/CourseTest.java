@@ -1,5 +1,6 @@
-package org.example;
+package org.example.gradeCalculator;
 
+import org.example.gradeCalculator.Course;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

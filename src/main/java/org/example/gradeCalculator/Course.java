@@ -1,4 +1,4 @@
-package org.example;
+package org.example.gradeCalculator;
 
 public class Course {
 
@@ -10,6 +10,11 @@ public class Course {
         this.subject = subject;
         this.credit = credit;
         this.grade = grade;
+    }
+
+    // Getter 이용하는 방식은 수정 시 사용하는 모든 곳에서 수정을 해야 했기에 리팩토링(응집도↓)
+    public double multiplyCreditAndCourseGrade() {
+        return credit * getGradeToNumber();
     }
 
     public int getCredit() {
@@ -41,4 +46,6 @@ public class Course {
         }
         return grade;
     }
+
+
 }
