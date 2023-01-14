@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.UserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-01-14T12:06:55" hostname="DESKTOP-PGFVG56" time="0.035">
+<testsuite name="org.example.UserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-01-14T12:20:02" hostname="DESKTOP-PGFVG56" time="0.034">
   <properties/>
-  <testcase name="패스워드가 요구사항에 부합되지 않아 초기화가 되지 않는다." classname="org.example.UserTest" time="0.033"/>
-  <testcase name="패스워드를 초기화한다." classname="org.example.UserTest" time="0.002"/>
+  <testcase name="패스워드가 요구사항에 부합되지 않아 초기화가 되지 않는다." classname="org.example.UserTest" time="0.032"/>
+  <testcase name="패스워드를 초기화한다." classname="org.example.UserTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

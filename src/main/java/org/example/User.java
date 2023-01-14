@@ -4,7 +4,6 @@ public class User {
     private String password;
 
     public void initPassword(PasswordGenerator passwordGenerator){
-//        RandomPasswordGenerator password = new RandomPasswordGenerator();
         String password = passwordGenerator.generatePassword();
 
         /**
